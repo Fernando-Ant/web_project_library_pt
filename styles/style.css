@@ -1,4 +1,4 @@
-.page{
+.page {
   min-width: 1100px;
   max-width: 1600px;
   margin: auto;
@@ -32,10 +32,11 @@
 }
 
 .nav__links {
-  padding-top: 8px;
   display: flex;
   column-gap: 20px;
   list-style-type: none;
+  padding-left: 0;
+  margin-top: 8px;
 }
 
 .nav__link {
@@ -47,7 +48,7 @@
 .header__content {
   margin: 128px 78 0;
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
 }
 
 .header__title {
@@ -94,7 +95,6 @@
   background-size: cover;
   background-position: 100%;
   background-repeat: no-repeat;
-
 }
 
 .staff__title {
@@ -116,11 +116,11 @@
 }
 
 .staff__cards {
-max-width: 760px;
+  max-width: 760px;
   margin: 68px auto;
   display: flex;
-flex-wrap: wrap;
-justify-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 40px;
 }
 
